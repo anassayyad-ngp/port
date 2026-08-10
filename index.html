@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohammad Ammar — Data Analyst</title>
+  <meta name="description" content="Data Analyst from Nagpur building end-to-end analytics: SQL, Python, Tableau. Author of the SQL Engineering Handbook and NagpurLens." />
+  <meta name="author" content="Mohammad Ammar" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mohammad Ammar — Data Analyst" />
+  <meta property="og:description" content="End-to-end analytics from raw SQL to Tableau dashboards. SQL Engineering Handbook · NagpurLens · Apex Analyticx." />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@theammarngp" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HEADER — dark, fixed
+       ═══════════════════════════════════════════ -->
+  <header class="theme-dark site-header" id="site-header">
+    <div class="header-inner container">
+      <a href="#top" class="header-brand font-mono">M. Ammar</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="header-nav" id="main-nav">
+        <a href="#about" class="nav-link link-underline">About</a>
+        <a href="#work" class="nav-link link-underline">Work</a>
+        <a href="#stack" class="nav-link link-underline">Stack</a>
+        <a href="#open-source" class="nav-link link-underline">Open Source</a>
+        <a href="#journey" class="nav-link link-underline">Journey</a>
+        <a href="#contact" class="nav-link link-underline">Contact</a>
+      </nav>
+
+      <a href="mailto:theammarngp@gmail.com" class="header-contact font-mono">Contact</a>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       HERO — dark, full-viewport
+       ═══════════════════════════════════════════ -->
+  <section id="top" class="theme-dark hero">
+    <!-- Cinematic background layers -->
+    <div class="hero-bg hero-drift" aria-hidden="true"></div>
+    <div class="hero-sheen" aria-hidden="true"></div>
+    <div class="hero-overlay-1" aria-hidden="true"></div>
+    <div class="hero-overlay-2" aria-hidden="true"></div>
+
+    <div class="hero-content container">
+      <p class="hero-label animate-fade-up font-mono" style="animation-delay: 60ms">
+        Data Analyst · Nagpur, India
+      </p>
+      <h1 class="hero-title animate-fade-up" style="animation-delay: 160ms">
+        Mohammad Ammar
+      </h1>
+      <p class="hero-subtitle animate-fade-up" style="animation-delay: 280ms">
+        I build end-to-end analytics — from raw SQL queries to Tableau dashboards — around real
+        business problems, and write curriculum-grade SQL content on the side.
+      </p>
+      <div class="hero-cta animate-fade-up" style="animation-delay: 400ms">
+        <a href="#work" class="btn btn-primary">View work</a>
+        <a href="assets/Mohammad-Ammar-Resume.pdf" download="Mohammad-Ammar-Resume.pdf" class="btn btn-outline">Download résumé</a>
+        <a href="https://github.com/theammarngp-makes" target="_blank" rel="noreferrer" class="btn btn-outline">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       METRICS — light, 4-column
+       ═══════════════════════════════════════════ -->
+  <section class="theme-light metrics-section">
+    <div class="metrics-grid container">
+
+      <div class="metric-card card-lift">
+        <span class="metric-rail rail" aria-hidden="true"></span>
+        <div class="metric-label">
+          <span class="metric-dot"></span>
+          <p class="font-mono text-web">Current Focus</p>
+        </div>
+        <p class="metric-value">Analytics Engineering</p>
+        <p class="metric-detail">SQL · Python · Modeling</p>
+      </div>
+
+      <div class="metric-card card-lift has-border">
+        <span class="metric-rail rail" aria-hidden="true"></span>
+        <div class="metric-label">
+          <span class="metric-dot"></span>
+          <p class="font-mono text-web">Building</p>
+        </div>
+        <p class="metric-value">NagpurLens</p>
+        <p class="metric-detail">57 localities mapped</p>
+      </div>
+
+      <div class="metric-card card-lift has-border">
+        <span class="metric-rail rail" aria-hidden="true"></span>
+        <div class="metric-label">
+          <span class="metric-dot"></span>
+          <p class="font-mono text-web">Authoring</p>
+        </div>
+        <p class="metric-value">SQL Handbook</p>
+        <p class="metric-detail">20+ production modules</p>
+      </div>
+
+      <div class="metric-card card-lift has-border">
+        <span class="metric-rail rail" aria-hidden="true"></span>
+        <div class="metric-label">
+          <span class="metric-dot"></span>
+          <p class="font-mono text-web">Seeking</p>
+        </div>
+        <p class="metric-value">Paid Internship</p>
+        <p class="metric-detail">Data Analyst · Immediate</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT + PHILOSOPHY — dark
+       ═══════════════════════════════════════════ -->
+  <section id="about" class="theme-dark about-section">
+    <div class="bg-dot-grid dot-overlay" aria-hidden="true"></div>
+    <div class="reveal container section-pad">
+      <div class="about-grid">
+        <p class="section-side-label font-mono text-web">About</p>
+        <div>
+          <p class="about-headline">
+            Analytics that survives contact with production — clear questions, defensible
+            queries, and a story a business can act on.
+          </p>
+          <ul class="about-list">
+            <li class="about-item">
+              <span class="about-dash"></span>
+              <span>B.Tech Engineering student in Nagpur — SGPA 8.53 (Sem 1), 7.86 (Sem 2).</span>
+            </li>
+            <li class="about-item">
+              <span class="about-dash"></span>
+              <span>Co-founder, Execution &amp; Lead Data Analyst at Apex Analyticx — a freelance venture delivering data analytics and other services to businesses.</span>
+            </li>
+            <li class="about-item">
+              <span class="about-dash"></span>
+              <span>Building NagpurLens, an open-source urban intelligence platform mapping infrastructure gaps across Nagpur.</span>
+            </li>
+            <li class="about-item">
+              <span class="about-dash"></span>
+              <span>Author of the SQL Engineering Handbook, a 20+ module production-grade SQL curriculum.</span>
+            </li>
+            <li class="about-item">
+              <span class="about-dash"></span>
+              <span>Seeking a paid Data Analyst internship where I can contribute from day one with SQL, Python and data storytelling.</span>
+            </li>
+          </ul>
+
+          <!-- Philosophy cards -->
+          <div class="philosophy-grid">
+            <div class="philosophy-card card-lift">
+              <p class="philosophy-num font-mono">01</p>
+              <h3 class="philosophy-title">Start from the question</h3>
+              <p class="philosophy-desc">Every project begins with a decision someone has to make. If the query doesn't change an action, it doesn't ship.</p>
+              <span class="philosophy-bar"></span>
+            </div>
+            <div class="philosophy-card card-lift">
+              <p class="philosophy-num font-mono">02</p>
+              <h3 class="philosophy-title">Engineering-grade SQL</h3>
+              <p class="philosophy-desc">CTEs over nested subqueries, indexes over hope, execution plans over guesses. Queries are read more than they're written.</p>
+              <span class="philosophy-bar"></span>
+            </div>
+            <div class="philosophy-card card-lift">
+              <p class="philosophy-num font-mono">03</p>
+              <h3 class="philosophy-title">Documented like a product</h3>
+              <p class="philosophy-desc">READMEs, schema diagrams, assumptions and limitations. A repo a stranger can run is the minimum bar.</p>
+              <span class="philosophy-bar"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FEATURED WORK — light
+       ═══════════════════════════════════════════ -->
+  <section id="work" class="theme-light work-section">
+    <div class="reveal container section-pad">
+      <div class="section-head">
+        <p class="section-label font-mono text-web">Featured Work</p>
+        <h2 class="section-title">Projects built around questions a business actually asks.</h2>
+        <p class="section-sub">Each repository ships with documentation, assumptions and the query design behind the answer.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- SQL Engineering Handbook — featured, spans 2 cols -->
+        <a href="https://github.com/theammarngp-makes/SQL-Engineering-Handbook" target="_blank" rel="noreferrer" class="project-card card-lift featured">
+          <div class="project-top">
+            <div class="project-mono">
+              <span class="font-mono">SQ</span>
+            </div>
+            <div class="project-badges">
+              <span class="badge-featured font-mono">Featured</span>
+              <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <h3 class="project-title">SQL Engineering Handbook</h3>
+          <p class="project-desc">A 20+ module production-quality knowledge base covering advanced SQL, performance tuning, data modeling and real-world query design — with a full resource library and community health docs.</p>
+          <div class="project-stack">
+            <span class="chip font-mono">SQL</span>
+            <span class="chip font-mono">MySQL</span>
+            <span class="chip font-mono">Git</span>
+          </div>
+        </a>
+
+        <!-- NagpurLens — featured, spans 2 cols -->
+        <a href="https://github.com/theammarngp-makes/NagpurLens" target="_blank" rel="noreferrer" class="project-card card-lift featured">
+          <div class="project-top">
+            <div class="project-mono">
+              <span class="font-mono">NL</span>
+            </div>
+            <div class="project-badges">
+              <span class="badge-featured font-mono">Featured</span>
+              <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <h3 class="project-title">NagpurLens</h3>
+          <p class="project-desc">An urban intelligence platform mapping infrastructure gaps and growth signals across 57 Nagpur localities using custom KPIs — density, healthcare access, investment attractiveness.</p>
+          <p class="project-note font-mono">Multi-collaborator · in progress</p>
+          <div class="project-stack">
+            <span class="chip font-mono">MySQL</span>
+            <span class="chip font-mono">FastAPI</span>
+            <span class="chip font-mono">Streamlit</span>
+            <span class="chip font-mono">Python</span>
+          </div>
+        </a>
+
+        <!-- Olist Sales Analysis -->
+        <a href="https://github.com/theammarngp-makes/olist-sales-analysis" target="_blank" rel="noreferrer" class="project-card card-lift">
+          <div class="project-top">
+            <div class="project-mono">
+              <span class="font-mono">OL</span>
+            </div>
+            <div class="project-badges">
+              <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <h3 class="project-title">Olist Sales Analysis</h3>
+          <p class="project-desc">Which categories and regions drive 80% of revenue across 95K+ orders?</p>
+          <div class="project-stack">
+            <span class="chip font-mono">SQL</span>
+            <span class="chip font-mono">Python</span>
+            <span class="chip font-mono">Pandas</span>
+            <span class="chip font-mono">Tableau</span>
+          </div>
+        </a>
+
+        <!-- Cohort Retention Analysis -->
+        <a href="https://github.com/theammarngp-makes/E-commerce-cohort-retention-analysis" target="_blank" rel="noreferrer" class="project-card card-lift">
+          <div class="project-top">
+            <div class="project-mono">
+              <span class="font-mono">CR</span>
+            </div>
+            <div class="project-badges">
+              <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <h3 class="project-title">Cohort Retention Analysis</h3>
+          <p class="project-desc">Why do 96%+ of customers never return after their first purchase?</p>
+          <div class="project-stack">
+            <span class="chip font-mono">SQL</span>
+            <span class="chip font-mono">Python</span>
+            <span class="chip font-mono">Tableau</span>
+          </div>
+        </a>
+
+        <!-- RFM Customer Segmentation -->
+        <a href="https://github.com/theammarngp-makes/ecommerce-rfm-customer-segmentation" target="_blank" rel="noreferrer" class="project-card card-lift">
+          <div class="project-top">
+            <div class="project-mono">
+              <span class="font-mono">RF</span>
+            </div>
+            <div class="project-badges">
+              <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <h3 class="project-title">RFM Customer Segmentation</h3>
+          <p class="project-desc">Who are the high-value versus at-risk customers?</p>
+          <div class="project-stack">
+            <span class="chip font-mono">SQL</span>
+            <span class="chip font-mono">Python</span>
+            <span class="chip font-mono">Pandas</span>
+            <span class="chip font-mono">Tableau</span>
+          </div>
+        </a>
+
+        <!-- Daily Reflection Tree -->
+        <a href="https://github.com/theammarngp-makes/daily-reflection-tree" target="_blank" rel="noreferrer" class="project-card card-lift">
+          <div class="project-top">
+            <div class="project-mono">
+              <span class="font-mono">DR</span>
+            </div>
+            <div class="project-badges">
+              <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+          <h3 class="project-title">Daily Reflection Tree</h3>
+          <p class="project-desc">A deterministic CLI journaling app with 25+ branching nodes across three psychological axes — no LLM at runtime.</p>
+          <div class="project-stack">
+            <span class="chip font-mono">Python</span>
+            <span class="chip font-mono">FastAPI</span>
+            <span class="chip font-mono">JSON</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       TECH STACK — light
+       ═══════════════════════════════════════════ -->
+  <section id="stack" class="theme-light stack-section">
+    <div class="bg-blueprint blueprint-overlay" aria-hidden="true"></div>
+    <div class="reveal container section-pad" style="position:relative">
+      <div class="section-head">
+        <p class="section-label font-mono text-web">Tech Stack</p>
+        <h2 class="section-title">Tools I reach for, and how deep each one goes.</h2>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Data & Analytics -->
+        <div class="skill-card card-lift">
+          <div class="skill-header">
+            <span class="skill-icon-wrap">
+              <svg class="skill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/></svg>
+            </span>
+            <h3 class="skill-group">Data &amp; Analytics</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="chip font-mono">SQL</span>
+            <span class="chip font-mono">Python</span>
+            <span class="chip font-mono">Pandas</span>
+            <span class="chip font-mono">Tableau</span>
+            <span class="chip font-mono">Matplotlib</span>
+            <span class="chip font-mono">Seaborn</span>
+          </div>
+        </div>
+
+        <!-- SQL Depth -->
+        <div class="skill-card card-lift">
+          <div class="skill-header">
+            <span class="skill-icon-wrap">
+              <svg class="skill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/></svg>
+            </span>
+            <h3 class="skill-group">SQL Depth</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="chip font-mono">Joins</span>
+            <span class="chip font-mono">Subqueries</span>
+            <span class="chip font-mono">CTEs</span>
+            <span class="chip font-mono">Window Functions</span>
+            <span class="chip font-mono">Query Optimization</span>
+            <span class="chip font-mono">Data Modeling</span>
+            <span class="chip font-mono">GROUP BY / HAVING</span>
+            <span class="chip font-mono">CASE WHEN</span>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="skill-card card-lift">
+          <div class="skill-header">
+            <span class="skill-icon-wrap">
+              <svg class="skill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </span>
+            <h3 class="skill-group">Languages</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="chip font-mono">C</span>
+            <span class="chip font-mono">C++</span>
+            <span class="chip font-mono">Java</span>
+            <span class="chip font-mono">OOP</span>
+            <span class="chip font-mono">Verilog</span>
+          </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="skill-card card-lift">
+          <div class="skill-header">
+            <span class="skill-icon-wrap">
+              <svg class="skill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </span>
+            <h3 class="skill-group">Tools &amp; Platforms</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="chip font-mono">FastAPI</span>
+            <span class="chip font-mono">Git</span>
+            <span class="chip font-mono">GitHub</span>
+            <span class="chip font-mono">Streamlit</span>
+            <span class="chip font-mono">MySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       OPEN SOURCE — light
+       ═══════════════════════════════════════════ -->
+  <section id="open-source" class="theme-light opensource-section">
+    <div class="reveal container section-pad">
+      <div class="section-head">
+        <p class="section-label font-mono text-web">Open Source</p>
+        <h2 class="section-title">Built in public, committed daily.</h2>
+        <p class="section-sub">Documentation, curriculum and analysis code — all versioned on GitHub.</p>
+      </div>
+
+      <div class="opensource-grid">
+        <!-- Contribution Graph -->
+        <div class="opensource-panel">
+          <p class="panel-label font-mono text-web">Contribution activity</p>
+          <div class="graph-container" id="contribution-graph"></div>
+          <div class="graph-legend">
+            <span class="font-mono">Less</span>
+            <span class="graph-cell" style="background-color: var(--muted)"></span>
+            <span class="graph-cell" style="background-color: color-mix(in oklab, var(--foreground) 25%, var(--muted))"></span>
+            <span class="graph-cell" style="background-color: color-mix(in oklab, var(--foreground) 50%, var(--muted))"></span>
+            <span class="graph-cell" style="background-color: color-mix(in oklab, var(--foreground) 75%, var(--muted))"></span>
+            <span class="graph-cell" style="background-color: color-mix(in oklab, var(--foreground) 100%, var(--muted))"></span>
+            <span class="font-mono">More</span>
+          </div>
+        </div>
+
+        <!-- Latest Commits -->
+        <div class="opensource-panel">
+          <p class="panel-label font-mono text-web">Latest commits</p>
+          <ul class="commits-list">
+            <li class="commit-item">
+              <svg class="commit-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="3" y1="12" x2="9" y2="12"/><line x1="15" y1="12" x2="21" y2="12"/></svg>
+              <div>
+                <p class="commit-msg">Add module 21: query plan reading</p>
+                <p class="commit-meta font-mono">sql-engineering-handbook · 2d ago</p>
+              </div>
+            </li>
+            <li class="commit-item">
+              <svg class="commit-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="3" y1="12" x2="9" y2="12"/><line x1="15" y1="12" x2="21" y2="12"/></svg>
+              <div>
+                <p class="commit-msg">Score healthcare access KPI per locality</p>
+                <p class="commit-meta font-mono">nagpurlens · 5d ago</p>
+              </div>
+            </li>
+            <li class="commit-item">
+              <svg class="commit-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="3" y1="12" x2="9" y2="12"/><line x1="15" y1="12" x2="21" y2="12"/></svg>
+              <div>
+                <p class="commit-msg">Refactor revenue CTE, add region rollup</p>
+                <p class="commit-meta font-mono">olist-sales-analysis · 1w ago</p>
+              </div>
+            </li>
+            <li class="commit-item">
+              <svg class="commit-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="3" y1="12" x2="9" y2="12"/><line x1="15" y1="12" x2="21" y2="12"/></svg>
+              <div>
+                <p class="commit-msg">Fix first-purchase window edge case</p>
+                <p class="commit-meta font-mono">cohort-retention · 2w ago</p>
+              </div>
+            </li>
+          </ul>
+          <a href="https://github.com/theammarngp-makes" target="_blank" rel="noreferrer" class="github-link link-underline font-mono">
+            View GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       VENTURE + CREDENTIALS — dark
+       ═══════════════════════════════════════════ -->
+  <section class="theme-dark venture-section">
+    <div class="reveal container section-pad">
+      <div class="venture-grid">
+        <!-- Venture -->
+        <div>
+          <p class="section-label font-mono text-web">Venture</p>
+          <h3 class="venture-title">Apex Analyticx</h3>
+          <p class="venture-role font-mono">Co-founder — Execution &amp; Lead Data Analyst</p>
+          <p class="venture-desc">
+            A freelance venture offering multiple services to businesses, including data
+            analytics. I lead execution and own the data analytics function end to end.
+          </p>
+        </div>
+
+        <!-- Credentials -->
+        <div id="credentials">
+          <p class="section-label font-mono text-web">Certifications &amp; Externships</p>
+          <ul class="credentials-list">
+            <li class="credential-item">
+              <p class="credential-title">HackerRank — SQL (Advanced)</p>
+              <p class="credential-meta">Certification</p>
+            </li>
+            <li class="credential-item">
+              <p class="credential-title">HackerRank — SQL (Basic)</p>
+              <p class="credential-meta">Certification</p>
+            </li>
+            <li class="credential-item">
+              <p class="credential-title">Zetheta Algorithms — Data Analyst, Securitisation</p>
+              <p class="credential-meta">Externship · 15 full-time days equivalent · IFRS 9 ECL modeling, DAX, star schema and Python analytics on real auto loan data</p>
+            </li>
+            <li class="credential-item">
+              <p class="credential-title">B.Tech Engineering, Nagpur</p>
+              <p class="credential-meta">SGPA 8.53 (Sem 1) · 7.86 (Sem 2)</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       JOURNEY — dark
+       ═══════════════════════════════════════════ -->
+  <section id="journey" class="theme-dark journey-section">
+    <div class="reveal container section-pad">
+      <div class="section-head">
+        <p class="section-label font-mono text-web">Journey</p>
+        <h2 class="section-title">Where I am, and where this is going.</h2>
+      </div>
+
+      <div class="journey-grid">
+        <div class="journey-card">
+          <p class="journey-phase font-mono">Now</p>
+          <h3 class="journey-title">Data Analyst, shipping in public</h3>
+          <p class="journey-desc">Leading execution at Apex Analyticx, authoring the SQL Engineering Handbook, building NagpurLens.</p>
+        </div>
+        <div class="journey-card">
+          <p class="journey-phase font-mono">Next</p>
+          <h3 class="journey-title">Paid Data Analyst internship</h3>
+          <p class="journey-desc">Contributing from day one with SQL, Python and data storytelling inside a real product team.</p>
+        </div>
+        <div class="journey-card">
+          <p class="journey-phase font-mono">Future</p>
+          <h3 class="journey-title">Analytics Engineer</h3>
+          <p class="journey-desc">Warehouse modeling, transformation pipelines and tested, versioned analytics as infrastructure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CONTACT — light
+       ═══════════════════════════════════════════ -->
+  <section id="contact" class="theme-light contact-section">
+    <div class="reveal container section-pad-lg">
+      <p class="contact-headline">
+        Open to a paid Data Analyst internship.
+      </p>
+      <p class="contact-sub">
+        If you're a recruiter — start with the work above. Each project links directly to the
+        repository with full documentation. Email is the fastest way to reach me.
+      </p>
+      <div class="contact-cta">
+        <a href="mailto:theammarngp@gmail.com" class="btn btn-primary">Email me — theammarngp@gmail.com</a>
+        <a href="assets/Mohammad-Ammar-Resume.pdf" download="Mohammad-Ammar-Resume.pdf" class="btn btn-outline-light">Download résumé</a>
+      </div>
+      <div class="contact-links">
+        <a href="https://github.com/theammarngp-makes" target="_blank" rel="noreferrer" class="link-underline font-mono">GitHub</a>
+        <a href="https://www.linkedin.com/in/mohammad-ammar-ngp/" target="_blank" rel="noreferrer" class="link-underline font-mono">LinkedIn</a>
+        <a href="mailto:theammarngp@gmail.com" class="link-underline font-mono">Email</a>
+        <a href="assets/Mohammad-Ammar-Resume.pdf" target="_blank" class="link-underline font-mono">Résumé</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER — dark
+       ═══════════════════════════════════════════ -->
+  <footer class="theme-dark site-footer">
+    <div class="footer-inner container">
+      <p class="footer-text font-mono">Mohammad Ammar © <span id="year"></span></p>
+      <p class="footer-text font-mono">Nagpur, India</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
